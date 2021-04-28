@@ -85,15 +85,21 @@ const passwordGen = () => {
   }
   return result;
 };
+
 // Generate function
 const generatePass = (e) => {
   e.preventDefault();
   let button = document.querySelector("input");
-  if (button == "click") {
-    let result = document.querySelector(".result");
-    let span = document.createElement("span");
-    let addPass = result.appendChild(span);
-    button.addEventListener("click", passwordGen());
-  }
+  let result = document.querySelector(".result");
+  let div = document.createElement("div");
+
+  const value = passwordGen();
+  div.textContent = value;
+
+  result.appendChild(div);
+
+  let del = button;
+  del.addEventListener("click", () => div.remove());
 };
-console.log(passwordGen());
+//console.log(passwordGen());
+document.querySelector("input").addEventListener("click", generatePass);

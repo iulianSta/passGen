@@ -11,6 +11,9 @@
 :root {
   --zen: "Zen Dots", cursive, sans-serif;
   --red: rgb(131, 8, 8);
+  --white: white;
+  --green: green;
+  --neon: #39ff14;
 }
 /* Body style */
 body {
@@ -19,11 +22,47 @@ body {
 }
 /* H1 style */
 h1 {
-  margin: 2rem 0 0 3rem;
+  margin: 10rem 0 0 3rem;
   font-family: var(--zen);
   color: var(--red);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+}
+/* Form style */
+form {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* Button style */
+input[type="button"] {
+  font-family: var(--zen);
+  font-size: 1em;
+  font-weight: bold;
+  background-color: var(--green);
+  color: var(--white);
+  margin-bottom: 10vh;
+  width: 20vw;
+  height: 10vh;
+  border: none;
+  border-radius: 1.5em;
+  cursor: pointer;
+  transition: 0.2s;
+}
+/* Div style*/
+div {
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-self: center;
+  flex-flow: wrap;
+}
+/* Button hover efect */
+input[type="button"]:hover {
+  font-size: 2em;
+  background-color: var(--neon);
 }
