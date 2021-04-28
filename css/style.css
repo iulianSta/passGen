@@ -1,0 +1,29 @@
+/* Import */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+/* All elements style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Variables */
+:root {
+  --zen: "Zen Dots", cursive, sans-serif;
+  --red: rgb(131, 8, 8);
+}
+/* Body style */
+body {
+  width: 100vw;
+  height: 100vh;
+}
+/* H1 style */
+h1 {
+  margin: 2rem 0 0 2rem;
+  font-family: var(--zen);
+  color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
