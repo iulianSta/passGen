@@ -89,4 +89,11 @@ const passwordGen = () => {
 const generatePass = (e) => {
   e.preventDefault();
   let button = document.querySelector("input");
+  if (button == "click") {
+    let result = document.querySelector(".result");
+    let span = document.createElement("span");
+    let addPass = result.appendChild(span);
+    button.addEventListener("click", passwordGen());
+  }
 };
+console.log(passwordGen());
