@@ -19,7 +19,7 @@ body {
 }
 /* H1 style */
 h1 {
-  margin: 2rem 0 0 2rem;
+  margin: 2rem 0 0 3rem;
   font-family: var(--zen);
   color: var(--red);
   display: flex;

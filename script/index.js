@@ -85,3 +85,8 @@ const passwordGen = () => {
   }
   return result;
 };
+// Generate function
+const generatePass = (e) => {
+  e.preventDefault();
+  let button = document.querySelector("input");
+};
