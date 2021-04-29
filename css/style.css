@@ -19,6 +19,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  background: url(../img/bg-img.jpeg);
 }
 /* H1 style */
 h1 {
@@ -57,6 +58,7 @@ input[type="button"] {
 div {
   font-size: 1rem;
   font-weight: bold;
+  color: var(--white);
   display: flex;
   align-self: center;
   flex-flow: wrap;
