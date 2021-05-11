@@ -31,5 +31,6 @@
   "bugs": {
     "url": "https://github.com/iulianSta/passGen/issues"
   },
-  "homepage": "https://github.com/iulianSta/passGen#readme"
+  "homepage": "https://github.com/iulianSta/passGen#readme",
+  "dependencies": {}
 }
