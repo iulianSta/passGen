@@ -93,15 +93,22 @@ const generatePass = (e) => {
   e.preventDefault();
   let button = document.querySelector("input");
   let result = document.querySelector(".result");
-  let div = document.createElement("div");
+  let div = document.createElement("textarea");
 
   const value = passwordGen();
-  div.textContent = value;
-
+  div.value = value;
   result.appendChild(div);
 
   let del = button;
   del.addEventListener("click", () => div.remove());
 };
-//console.log(passwordGen());
+
 document.querySelector("input").addEventListener("click", generatePass);
+let copyBtn = document.querySelector(".copy");
+copyBtn.addEventListener("click", () => {
+  let div = document.querySelector("textarea");
+  div.select();
+  document.execCommand("copy");
+  alert("Copy");
+  div.remove();
+});
