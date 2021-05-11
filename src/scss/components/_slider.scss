@@ -7,3 +7,10 @@
   width: 100%;
   height: 5rem;
 }
+// Media Query for Laptops and Desktops
+// Media Query for Large screens
+@media only screen and (min-width: 1025px) {
+  .slidecontainer {
+    width: 30%;
+  }
+}

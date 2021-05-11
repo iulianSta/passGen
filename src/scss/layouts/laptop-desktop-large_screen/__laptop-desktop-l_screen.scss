@@ -1,0 +1,6 @@
+// Media Query for Laptops and Desktops
+// Media Query for Large screens
+@media only screen and (min-width: 1025px) {
+  @import "./header";
+  @import "./result";
+}
