@@ -215,6 +215,12 @@ input[type=button] {
   input[type=button] {
     font-size: 2rem;
     width: 30vw;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  input[type=button]:hover {
+    font-size: 2.5rem;
+    background-color: #39ff14;
   }
 }
 .slidecontainer {
@@ -230,6 +236,10 @@ input[type=button] {
 @media only screen and (min-width: 1025px) {
   .slidecontainer {
     width: 30%;
+  }
+
+  .slider {
+    cursor: pointer;
   }
 }
 h1 {
