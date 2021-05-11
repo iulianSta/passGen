@@ -211,6 +211,12 @@ input[type=button] {
     font-size: 1.5rem;
   }
 }
+@media only screen and (min-width: 1025px) {
+  input[type=button] {
+    font-size: 2rem;
+    width: 30vw;
+  }
+}
 .slidecontainer {
   position: relative;
   width: 50%;
@@ -221,6 +227,11 @@ input[type=button] {
   height: 5rem;
 }
 
+@media only screen and (min-width: 1025px) {
+  .slidecontainer {
+    width: 30%;
+  }
+}
 h1 {
   margin: 10rem 0 0 2rem;
   font-family: "Zen Dots", cursive, sans-serif;
@@ -263,6 +274,16 @@ div {
   div {
     font-size: 1.5rem;
     margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  div {
+    font-size: 2rem;
+    margin-top: 2rem;
   }
 }
 
