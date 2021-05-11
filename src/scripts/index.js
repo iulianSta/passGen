@@ -77,9 +77,10 @@ const passwordGen = () => {
     "y",
     "z",
   ];
+  let myRange = document.querySelector("#myRange");
   let result = "";
   let randomNum;
-  for (let i = 0; i <= 30; i++) {
+  for (let i = 0; i <= myRange.value - 1; i++) {
     randomNum = Math.floor(Math.random() * characters.length);
     // result = result + characters[randomNum];
     result += characters[randomNum];
