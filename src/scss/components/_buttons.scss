@@ -1,0 +1,14 @@
+// Generate button style
+input[type="button"] {
+  font-family: $zen;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: $green;
+  color: $white;
+  margin-bottom: 5vh;
+  width: 50vw;
+  height: 10vh;
+  border: none;
+  border-radius: 1.5em;
+  transition: 0.2s;
+}
