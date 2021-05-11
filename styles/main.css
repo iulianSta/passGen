@@ -242,6 +242,10 @@ input[type=button] {
     cursor: pointer;
   }
 }
+body {
+  background-image: url(../../../images/bg-img.jpeg);
+}
+
 h1 {
   margin: 10rem 0 0 2rem;
   font-family: "Zen Dots", cursive, sans-serif;
