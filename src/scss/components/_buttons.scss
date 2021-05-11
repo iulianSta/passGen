@@ -12,3 +12,9 @@ input[type="button"] {
   border-radius: 1.5em;
   transition: 0.2s;
 }
+// Media Query for low resolution  Tablets, Ipads
+@media (min-width: 481px) and (max-width: 767px) {
+  input[type="button"] {
+    font-size: 1.5rem;
+  }
+}
