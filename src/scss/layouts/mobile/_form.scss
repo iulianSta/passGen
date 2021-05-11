@@ -1,0 +1,6 @@
+// Form style
+form {
+  margin-top: 5rem;
+  @include flex;
+  flex-direction: column;
+}

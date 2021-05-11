@@ -1,0 +1,8 @@
+// H1 style
+h1 {
+  margin: 10rem 0 0 3rem;
+  font-family: $zen;
+  color: $grey;
+  @include flex;
+  flex-flow: row wrap;
+}
