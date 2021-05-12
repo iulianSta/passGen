@@ -182,7 +182,7 @@ template {
 body {
   width: 100vw;
   height: 100vh;
-  background: url("../../images/bg-img.jpeg");
+  background-image: url(../../images/img/bg-img.jpeg);
 }
 
 /* Import */
