@@ -1,5 +1,9 @@
 # Password Generator App
 
+![Password generator app](./src/images/img/pass-gen.png)
+
+**From assignment to application**
+
 Create a repo for this app. we are coming later to it :)
 Create a program that generate a random password with the length of 30 character,
 every time you call the function should give you a different password.
@@ -14,8 +18,19 @@ passwordGen() ➞ v0ZwDrn@hfI€kOKWH§k6kqub6zfpuyP
 
 ## Table of Contents
 
-1. About The Project
-   **Password generator app project**
+### About The Project
+
+**Password generator**
+
+We had a JavaScript assignment to build a password generator function.
+The assignment transformed into a Frontend application.
+
+-Features added:
+
+- Sass layout;
+- Responsive design;
+- Slider, the user can change the length of the password between 4 and 30 characters.
+- Copy to clipboard button.
 
 - Built With
   - HTML;
@@ -24,7 +39,7 @@ passwordGen() ➞ v0ZwDrn@hfI€kOKWH§k6kqub6zfpuyP
   - gh-pages;
   - npm live-server.
 
-2. Getting Started
+### Getting Started
 
 - Prerequisites
   - vsCode;
@@ -39,25 +54,25 @@ passwordGen() ➞ v0ZwDrn@hfI€kOKWH§k6kqub6zfpuyP
     - sass;
     - live-server.
 
-3. Usage
+### Usage
 
 - HTML;
 - SCSS;
 - JavaScript;
 - Google fonts.
 
-4. Roadmap
-5. Contributing
+### Contributing
 
-### Iulian Stan
+## Iulian Stan
 
-6. License
-   Copyright protected
-7. Contact
-   [**Iulian Stan**](https://github.com/iulianSta)
-8. Acknowledgement
+### License
 
-### I want to thank to my Mentors:
+- Copyright protected
 
-**Hadi Nsreeny** and **Tareq Almasri**
-for the amazing coding skills that they teached me.
+### Contact
+
+[**Iulian Stan**](https://github.com/iulianSta)
+
+### Acknowledgement
+
+### I want to thank to the [**DCI**](https://www.digitalcareerinstitute.org) team and teachers!
